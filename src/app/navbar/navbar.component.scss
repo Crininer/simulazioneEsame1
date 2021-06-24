@@ -1,0 +1,28 @@
+@import "../../utilities/variables";
+
+.secondary-light {
+  color: $secondary-light;
+}
+
+h1 {
+  color: $white;
+  text-shadow: $black 0px 0px 2px;
+}
+
+nav {
+  background-color: $primary;
+}
+
+button {
+  background-color: $white;
+  border: $black 1px solid;
+  &.left {
+    border-radius: 10px 0 0 10px;
+  }
+  &.right {
+    border-radius: 0 10px 10px 0;
+  }
+  &:hover {
+    background-color: $light-gray;
+  }
+}
